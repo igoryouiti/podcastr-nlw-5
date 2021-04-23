@@ -24,7 +24,7 @@
 
   footer {
     align-self: stretch;
-    &.empty { // se o footer estiver com a classe empty
+    &.empty .progress{ // se o footer estiver com a classe empty
       opacity: 0.5;
     }
   }
@@ -107,6 +107,7 @@
 
     &:disabled {
       cursor: default;
+      opacity: 0.5;
     }
 
     &:hover:not(:disabled) {
